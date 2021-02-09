@@ -1,0 +1,158 @@
+<html>
+
+<title>FactoryGen</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap" rel="stylesheet">
+
+
+<style>
+
+.container{
+        width: 100%;
+        text-align: center;
+    }
+    .container button{
+        display: inline-block;
+        background-color: whitesmoke;
+        font-family: "Londrina Solid", serif;
+        font-size: 37px;
+                 
+    }
+    #btnHelp{
+        outline: none;
+        float:center;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 1px;
+        height: 100px;
+        width: 200px;
+        background-image: url("store3.png");
+    }
+    #btnLeaderboard{
+        outline: none;
+        float:center;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 1px;
+        height: 100px;
+        margin: 40px;
+        width: 200px;
+    }
+    #btnStore{
+        outline: none;
+        float:center;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 1px;
+        height: 100px;
+        width: 200px;
+        /*background-image: url("background.jpg");*/
+    }
+
+    button:focus {
+  background: #e5e5e5;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
+
+    /*  Main Page Stuff Bellow  */
+    body {
+  background-color: #488aff;
+}
+
+    header {
+        font-family: "Londrina Solid", serif;
+        font-size: 40px;
+
+    }
+
+h1{
+    font-size: 75px;
+  }
+
+
+  #top {
+    text-align: left;
+    text-anchor: top;
+    list-style-type: none; 
+  }
+
+</style>
+
+
+
+
+<style>
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #488aff;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: white;
+}
+    </style>
+
+<div class="topnav">
+  <a class="active" href="homepage.html">Home</a>
+</div>
+
+
+
+
+<header>
+
+<h1 style="text-align: center; margin-bottom: -70 !important;">FactoryGen</h1>
+<h6 style="text-align: center;">A KingsUnity Server</h6>
+
+</header>
+
+<body>
+
+    <div class='container'>
+        <a href="help.html";><button id="btnHelp">Help</button></a>
+        <a href="Leaderboard.html"><button  id="btnLeaderboard">Leaderboard</button></a>
+        <a href="https://kingtech.tebex.io"; target="_blank";><button id="btnStore">Store</button></a>
+    </div>
+</body>
+
+
+<style>
+
+footer{
+
+    text-align: center;
+}
+
+
+
+</style>
+
+<footer>
+<h1>videoHere</h1>
+</footer>
+
+</html>
